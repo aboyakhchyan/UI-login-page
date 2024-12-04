@@ -1,3 +1,4 @@
+import { InputForm } from '../../components/input-form/input-form';
 import { Logo } from '../../components/logo/logo';
 import { Slide } from '../../components/slide/slide';
 import styles from './login.module.css'
@@ -10,54 +11,13 @@ export const LoginPage = () => {
           className={styles.backgroundImg}
       />
 
+      <div className={styles.backgroundBlur}></div>
+
       <Logo />
 
       <Slide />
-      {/* <main>
-        <img src="" />
 
-        <div>
-          <h1></h1>
-          <p></p>
-
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-
-        <div>
-            <div>  
-                <h4></h4>
-
-                <h2></h2>
-            </div>
-
-            <div>
-                <form>
-                    <label></label>
-                    <input type="text" />
-
-                    <label></label>
-                    <input type="password">
-                        <span></span>
-                    </input>
-
-                    <div>
-                        <div>
-
-                        </div>
-
-                        <p></p>
-
-                        <strong></strong>
-                    </div>
-
-                    <button>CONTINUE</button>
-
-                </form>
-            </div>
-        </div>
-      </main> */}
+      <InputForm />
     </div>
   );
 };
