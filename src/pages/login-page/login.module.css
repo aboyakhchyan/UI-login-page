@@ -1,0 +1,11 @@
+.mainContainer {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+}
+
+.backgroundImg {
+    position: relative;
+    width: 1440px;
+    height: 900px;
+}

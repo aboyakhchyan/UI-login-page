@@ -1,0 +1,74 @@
+.slideContainer {
+    position: absolute;
+    width: 380px;
+    height: 219px;
+    top: 432px;
+    left: 250px;
+    color: white;
+}
+
+.title {
+    width: 380px;
+    height: 60px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 39.06px;
+    line-height: 46.87px;
+}
+
+.text {
+    width: 380px;
+    height: 85px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28.16px;
+}
+
+.slider {
+    position: relative;
+    width: 133.5px;
+    height: 2px;
+}
+
+.active {
+    background-color: white;
+    border: 5px solid white;
+    width: 48px;
+}
+
+.controller1 {
+    position: absolute;
+    width: 32px;
+    height: 2px;
+    top: 217px;
+    background-color: #9E9E9E;
+    border: 2px solid #9E9E9E;
+}
+
+.controller2 {
+    position: absolute;
+    width: 32px;
+    height: 2px;
+    top: 217px;
+    left: 59.5px;
+    background-color: #9E9E9E;
+    border: 2px solid #9E9E9E;
+}
+
+.controller3 {
+    position: absolute;
+    width: 32px;
+    height: 2px;
+    top: 217px;
+    left: 101.5px;
+    background-color: #9E9E9E;
+    border: 2px solid #9E9E9E;
+}
+
+.slideHeader {
+    width: 380px;
+    height: 169px;
+    gap: 24px;
+}
+
