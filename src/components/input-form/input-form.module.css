@@ -1,0 +1,166 @@
+.formContainer {
+    position: relative;
+    position: absolute;
+    right: 25vw;
+    bottom: 0;
+    width: 480px;
+    height: 700px;
+    border-radius: 24px 24px 0 0;
+    background-color: white;
+}
+
+.formTitle {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 40px;
+    top: 40px;
+    width: 250px;
+    height: 70px;
+}
+
+.title {
+    width: 120px;
+    height: 30px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.53px;
+}
+
+.description {
+    width: 250px;
+    height: 50px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    left: 40px;
+    right: 40px;
+    top: 140px;
+    width: 400px;
+    height: 280px;
+}
+
+.inputContainer {
+    position: relative;
+    width: 100%;
+    padding-top: 5px;
+  }
+  
+  .inputLabelEmail {
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    width: 40px;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22.53px;
+    color: black;
+    background-color: white;
+  }
+
+  .inputLabelPass {
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    width: 70px;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22.53px;
+    color: black;
+    background-color: white;
+  }
+
+  
+  .inputField {
+    width: 100%;
+    height: 56px;
+    padding: 12px 10px;
+    border: 1px solid rgba(66, 66, 66, 1);
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .hideLogo {
+    position: absolute;
+    right: 10px;
+    top: 23px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .confirmBlock {
+    display: flex;
+    align-items: center;
+    height: 25px;
+  }
+
+  .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(224, 224, 224, 1);
+    height: 25px;
+    width: 25px;
+  }
+
+  .shapeImg {
+    height: 9px;
+    width: 10px;
+  }
+
+  .confirmText {
+    width: 85px;
+    height: 25px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 13px;
+    line-height: 22.53px;
+    font-weight: 400;
+    margin-left: 5px;
+  }
+
+  .questionText {
+    position: absolute;
+    right: 0px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    width: 110px;
+    height: 25px;
+    font-size: 13px;
+    line-height: 22.53px;
+  }
+   
+
+  .submitForm {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 60px;
+    color: white;
+    border: none;
+    background-color: black;
+    border-radius: 1rem;
+  }
+
+  .buttonText {
+    margin-top: 20px;
+    width: 290px;
+    height: 45px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight: 700;
+    line-height: 22.53px;
+    text-align: center;
+  }
